@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PATH = "/opt/maven"
+        PATH = "/opt/apache-maven-3.6.3/bin/"
     }
     stages {
         stage("clone code"){
